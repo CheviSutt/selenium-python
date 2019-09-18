@@ -17,10 +17,6 @@ class Challenge2(unittest.TestCase):
 
     def test_challenge2(self):
         self.driver.get("https://www.copart.com")
-        title = self.driver.title
-        print(" - Title:", title)
-        self.assertEqual(title, self.driver.title)
-        # self.assertTrue(title == self.driver.title)
         search_input = self.driver.find_element_by_css_selector('#input-search')
         search_input.send_keys(porsche)
         print(" - Keys Sent:", porsche)
@@ -28,7 +24,7 @@ class Challenge2(unittest.TestCase):
         search_btn.click()
         porsche_currently_listed = WebDriverWait(self.driver, 10).until(
             cond.visibility_of_element_located((By.XPATH, "//table[@id='serverSideDataTable']/tbody/tr[1]/td[5]")))
-        print(" - Text:", porsche_currently_listed.text)
+        print(" - List Text:", porsche_currently_listed.text)
         self.assertTrue(porsche_currently_listed.text == porsche)
 
 

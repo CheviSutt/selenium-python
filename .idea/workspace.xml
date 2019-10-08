@@ -2,7 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="28481871-3392-4222-8fa8-12ac944094ce" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/royale/models/card.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/challenge3/challenge3.py" beforeDir="false" afterPath="$PROJECT_DIR$/challenge3/challenge3.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/royale/pages/cards_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/royale/pages/cards_page.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/royale/pages/pages.py" beforeDir="false" afterPath="$PROJECT_DIR$/royale/pages/pages.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_cards.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_cards.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -124,8 +129,8 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python tests.pytest for test_cards.test_card_is_displayed" />
-        <item itemvalue="Python tests.pytest for test_cards.test_ice_spirit_card_is_displayed" />
         <item itemvalue="Python tests.pytest for test_cards.test_ice_spirit_details_are_correct" />
+        <item itemvalue="Python tests.pytest for test_cards.test_ice_spirit_card_is_displayed" />
         <item itemvalue="Python tests.pytest for challenge1.Challenge1.test_challenge1" />
         <item itemvalue="Python tests.pytest for test_cards.test_sample" />
       </list>
@@ -161,9 +166,9 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/royale/pages/cards_page.py</url>
-          <line>13</line>
-          <option name="timeStamp" value="14" />
+          <url>file://$PROJECT_DIR$/youniue/younique.py</url>
+          <line>22</line>
+          <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

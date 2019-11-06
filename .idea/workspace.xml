@@ -2,12 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="28481871-3392-4222-8fa8-12ac944094ce" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/royale/models/card.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/challenge3/challenge3.py" beforeDir="false" afterPath="$PROJECT_DIR$/challenge3/challenge3.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/royale/pages/cards_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/royale/pages/cards_page.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/royale/pages/pages.py" beforeDir="false" afterPath="$PROJECT_DIR$/royale/pages/pages.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_cards.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_cards.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/challenge4/fibonacci.py" beforeDir="false" afterPath="$PROJECT_DIR$/challenge4/fibonacci.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chromedriver" beforeDir="false" afterPath="$PROJECT_DIR$/chromedriver" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/chromedriver-Darwin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/chromedriver-Linux32" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/chromedriver-Linux64" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/chromedriver-Windows" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -28,6 +29,7 @@
   <component name="ProjectId" id="1QA0H8snqTBmfW1YewWXf0c5ypE" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="TEXT" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -35,6 +37,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/tests" />
     </key>
   </component>
@@ -161,16 +164,5 @@
         </entry>
       </map>
     </option>
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/youniue/younique.py</url>
-          <line>22</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>

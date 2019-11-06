@@ -1,18 +1,3 @@
-# def fibonacci1(n):
-#     if n == 1 or n == 2:
-#         return 1
-#     return fibonacci(n - 1) + fibonacci(n - 2)
-#
-#
-# def fibonacci2(n):
-#     a, b = 1, 1
-#     for i in range(n - 1):
-#         a, b = b, a + b
-#     return a
-
-# for i in range(1, 27):
-#     print(fibonacci2(i))
-
 
 def int_to_english(num):
     d = {0: 'zero', 1: 'one', 2: 'two', 3: 'three', 4: 'four', 5: 'five',

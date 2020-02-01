@@ -1,5 +1,8 @@
 import unittest
-from challenge4.fibonacci import fibonacci3
+
+from Challenges.challenge4 import fibonacci_method
+
+fib = fibonacci_method.fibonacci3
 
 
 class Challenge2(unittest.TestCase):
@@ -9,10 +12,11 @@ class Challenge2(unittest.TestCase):
 
     def tearDown(self):
         self
+
     # function for nth Fibonacci number
 
     def test_Fibonacci(self):
-        self.fibonacci.fibonacci3
+        self.print(fib.num)
 
 
 if __name__ == '__main__':

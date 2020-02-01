@@ -1,7 +1,4 @@
-<<<<<<< HEAD
-=======
 
->>>>>>> 84dbbe19f0c1b69472af85e001b8471db26a4441
 def int_to_english(num):
     d = {0: 'zero', 1: 'one', 2: 'two', 3: 'three', 4: 'four', 5: 'five',
          6: 'six', 7: 'seven', 8: 'eight', 9: 'nine', 10: 'ten',

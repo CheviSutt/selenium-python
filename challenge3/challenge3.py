@@ -3,7 +3,7 @@ from selenium import webdriver
 from selenium.webdriver.common.by import By
 
 
-class Challenge2(unittest.TestCase):
+class Challenge3(unittest.TestCase):
 
     def setUp(self):
         self.driver = webdriver.Chrome("../chromedriver")
@@ -11,7 +11,7 @@ class Challenge2(unittest.TestCase):
     def tearDown(self):
         self.driver.close()
 
-    def test_challenge2_for_loop(self):
+    def test_challenge3_for_loop(self):
         self.driver.get("https://www.copart.com")
         most_popular_items_elements = self.driver.find_elements_by_xpath(
             "//div[@id='tabTrending']//a")
@@ -20,7 +20,7 @@ class Challenge2(unittest.TestCase):
             href = item.get_attribute("href")
             print("For Loop: " + listing + ' - ' + href)
 
-    def test_challenge2_while_loop(self):
+    def test_challenge3_while_loop(self):
         self.driver.get("https://www.copart.com")
         list_of_elements_2 = self.driver.find_elements(By.XPATH, "//div[@id='tabTrending']//a")
         count = 0

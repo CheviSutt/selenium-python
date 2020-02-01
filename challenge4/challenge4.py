@@ -5,7 +5,7 @@ from Challenges.challenge4 import fibonacci_method
 fib = fibonacci_method.fibonacci3
 
 
-class Challenge2(unittest.TestCase):
+class Challenge4(unittest.TestCase):
 
     def setUp(self):
         self

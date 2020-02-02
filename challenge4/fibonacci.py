@@ -1,4 +1,3 @@
-
 def int_to_english(num):
     d = {0: 'zero', 1: 'one', 2: 'two', 3: 'three', 4: 'four', 5: 'five',
          6: 'six', 7: 'seven', 8: 'eight', 9: 'nine', 10: 'ten',
@@ -63,7 +62,7 @@ def fibonacci3():
 
 
 number = 0
-sequence = 12
+sequence = 40
 # select sequence value above
 for i in fibonacci3():
     if number >= sequence or sequence >= 1000:
@@ -74,6 +73,3 @@ for i in fibonacci3():
     else:
         break
     number += 1
-
-
-

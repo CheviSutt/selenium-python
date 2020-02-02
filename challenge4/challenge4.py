@@ -1,22 +1,17 @@
 import unittest
-
 from Challenges.challenge4 import fibonacci_method
-
-fib = fibonacci_method.fibonacci3
+fib_class = fibonacci_method.Fibonacci
 
 
 class Challenge4(unittest.TestCase):
 
-    def setUp(self):
-        self
-
-    def tearDown(self):
-        self
-
     # function for nth Fibonacci number
 
     def test_Fibonacci(self):
-        self.print(fib.num)
+        val = fib_class(9)
+        print(val)
+
+    test_Fibonacci()
 
 
 if __name__ == '__main__':

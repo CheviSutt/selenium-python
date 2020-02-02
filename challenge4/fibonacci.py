@@ -62,25 +62,18 @@ def fibonacci3():
         a, b = b, a + b
 
 
-# number = 0
-# for i in fibonacci3():
-#     if number >= 50:
-#         break
-#     if number <= 40:
-#         text = int_to_english(i)
-#         print(i, '- ' + text)
-#     else:
-#         print(i, "- number is above the 50th fibonacci sequence!")
-#     number += 1
-
 number = 0
-sequence = 9
+sequence = 12
+# select sequence value above
 for i in fibonacci3():
     if number >= sequence or sequence >= 1000:
         break
     if number <= sequence:
         text = int_to_english(i)
-        print(i, '- ' + text)
+        print('Sequence of:', number + 1, ' Value:', i, '- ' + text)
     else:
         break
     number += 1
+
+
+

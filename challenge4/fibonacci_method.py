@@ -1,7 +1,5 @@
 class Fibonacci:
-
-    def __init__(self, number_val):
-        self.num = number_val
+    sequence = 0
 
     def int_to_english(self, num):
         d = {0: 'zero', 1: 'one', 2: 'two', 3: 'three', 4: 'four', 5: 'five',
@@ -58,20 +56,27 @@ class Fibonacci:
 
         raise AssertionError('num is too large: %s' % str(num))
 
-    def fibonacci3(self):
-        a, b = 1, 1
+    def fibonacci_sum(self):
+        a, b = 0, 1
         while True:
             yield a
             a, b = b, a + b
 
     number = 0
-    for i in fibonacci3():
-        if number >= 50:
+    # sequence = self.squence
+    for i in fibonacci_sum():
+        if number >= sequence or sequence >= 1000:
             break
-        if number <= 40:
+        if number <= sequence:
             text = int_to_english(i)
-            print(number.i, '- ' + number.text)
-            print(i)
+            print('Sequence of:', number + 1, ' Value:', i, '- ' + text)
         else:
-            print(i, "- number is above the 50th fibonacci sequence!")
+            break
         number += 1
+
+    # def bar(self, sequence):
+    #     self.sequnce = sequence
+
+
+a = Fibonacci()
+a.sequence = 9

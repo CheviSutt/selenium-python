@@ -2,11 +2,11 @@ class Fibonacci:
     def __init__(self, sequence):
         self.sequence = sequence
 
-        def fibonacci_sum():
-            a, b = 0, 1
-            while True:
-                yield a
-                a, b = b, a + b
+    def fibonacci_sum(self):
+        a, b = 0, 1
+        while True:
+            yield a
+            a, b = b, a + b
 
         number = 0
         for i in fibonacci_sum():

@@ -5,7 +5,7 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as cond
 
 
-class Challenge2(unittest.TestCase):
+class Challenge7(unittest.TestCase):
 
     def setUp(self):
         self.driver = webdriver.Chrome("../chromedriver")
@@ -13,7 +13,7 @@ class Challenge2(unittest.TestCase):
     def tearDown(self):
         self.driver.close()
 
-    def test_challenge2(self):
+    def test_challenge7(self):
         listings = []
         self.driver.get("https://www.copart.com")
         most_popular_items_elements = self.driver.find_elements_by_xpath(

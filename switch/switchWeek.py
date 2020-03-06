@@ -1,5 +1,5 @@
 # Implement Python Switch Case Statement using Dictionary
-class switchWeek:
+class SwitchWeek:
     rear = 0
     front = 0
     minor = 0
@@ -15,7 +15,7 @@ class switchWeek:
         return "frontEnd"
 
     def Minor(self):
-        self.Minor = self.Minor + 1
+        self.minor = self.Minor + 1
         return "minor"
 
     def under(self):
@@ -33,7 +33,7 @@ class switchWeek:
     }
 
     def switch(self, damage):
-        return switchWeek.switcher.get(damage, self.default)()
+        return SwitchWeek.switcher.get(damage, self.default)()
 
     print(switch("REAR END"))
     print(switch("FRONT END"))
